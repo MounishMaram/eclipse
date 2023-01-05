@@ -1,0 +1,53 @@
+package com.mile1.exception;
+import java.lang.Exception;
+public class NullMarksArrayException extends Exception{
+
+	public NullMarksArrayException(String message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "Mark array is null";
+	}
+
+}
+
+
+package com.mile1.exception;
+import java.lang.Exception;
+
+public class NullNameException extends Exception{
+
+	public NullNameException(String message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+
+	@Override
+	public String toString() {
+		return "name is null";
+	}
+
+}
+
+
+package com.mile1.exception;
+import java.lang.Exception;
+public class NullStudentObjectException extends Exception{
+	
+
+	public NullStudentObjectException(String message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "NullStudentObjectException []";
+	}
+	
+
+}
